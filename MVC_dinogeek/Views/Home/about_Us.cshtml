@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<link rel="stylesheet" href="~/css/CSS/Style_About_Us.css" asp-append-version="true" />
+
+<!-- Introduccion sobre nosotros -->
+<main>
+    <div class="linea_about">
+        <div class="about-container">
+            <div class="Dinosaurio">
+                <img src="~/Imagenes/dinosaurio.png" alt="Logo de Dinogeek">
+            </div>
+            <div class="about-text">
+                <p><strong>DINOGEEK</strong> es una página que tiene como objetivo recopilar las noticias del mundo Geek.</p>
+                <p>También tenemos guías que permiten orientar a nuestros usuarios en puntos específicos en sus aventuras. <strong>ROOAAARRR!!!</strong></p>
+            </div>
+        </div>
+    </div>
+    <!-- Correo -->
+    <div class="Contact_us">
+        <h2>¡Escríbenos!</h2>
+        <div class="Correo_contacto">
+            <input class="Asunto" type="text" placeholder="Asunto">
+        </div>
+        <div class="Contact_us_text">
+            <textarea class="Mensaje" id="autoExpand" placeholder="Escribe aquí tus comentarios..." oninput="autoResize(this)"></textarea>
+            <button class="BotonEnviar" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <!-- NewsLetter -->
+
+    <div class="NewsLetter">
+        <h2>¡Suscríbete a Nuestra NewsLetter!</h2>
+        <h3>¡Asi no te perderás ninguna de nuestras DinoNoticias!</h3>
+        <input type="email" class="CorreoSuscripcion" placeholder="Escribe tu DinoCorreo">
+        <button class="BotonSus" onclick="sendSuscription()">Suscribirse</button>
+    </div>
+
+
+    <!-- Miembros -->
+
+    <div class="Linea_texto">
+        <h2>El equipo de DINOGEEK está conformado por</h2>
+    </div>
+
+    <div class="team-members">
+
+        <div class="card">
+            <div class="imgbox">
+                <img src="~/Imagenes_About_us/sando.jpg" alt="Alejandro Sandoval">
+            </div>
+            <div class="details">
+                <h3>Alejandro Sandoval <br> <span>Multimedia Engineer</span></h3>
+                <p>"¿Dónde está el dinosaurio?"</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgbox">
+                <img src="~/Imagenes_About_us/andrs.jpg" alt="Andrés Moya">
+            </div>
+            <div class="details">
+                <h3>Andrés Moya <br> <span>Multimedia Engineer</span></h3>
+                <p>"¿Quieres que te cuente el Lore de Paladins?"</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgbox">
+                <img src="~/Imagenes_About_us/willy.jpg" alt="William Cubillos">
+            </div>
+            <div class="details">
+                <h3>William Cubillos <br> <span>Multimedia Engineer</span></h3>
+                <p>"No se preocupe, eso es fácil!"</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgbox">
+                <img src="~/Imagenes_About_us/mochi.jpg" alt="Sara Santos">
+            </div>
+            <div class="details">
+                <h3>Sara Santos <br> <span>Multimedia Engineer</span></h3>
+                <p>"no sé ni mi nombre, ayúdame doctor..."</p>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jersey 25', sans-serif;
+}
+header{
+    width: 100%;
+}
+
+.menu_mobile{
+    display: none;
+}
+
+/*Zona en la que estan el logo, el search y el usuario*/
+.top-container{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.top-bar {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 20px;
+   
+}
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-basis: 40%;
+}
+.logo img {
+    width: 8vw;
+    font-size: 3vw;
+    margin-right: 3%;
+}
+.logo h1 {
+    color: white;
+    font-size: 7vh;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: #ccc;
+    border-radius: 80px;
+    padding: 2vh;
+    margin-left: auto;
+    flex-basis:50%;
+}
+.lupa {
+    width: 30px;  /* Ajusta el tamaño de la lupa */
+    height: 30px; /* Mantiene proporciones */
+    margin-right: 5px;
+    margin-top: 4px; /* Espaciado entre la lupa y el input */
+}
+.search-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* MENU MOBILE  */
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+nav{
+	flex:1;
+	text-align: center;
+
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 4vw;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 4vw;
+}
+nav ul li a:hover{
+	color: #ff5ea2
+}
+
+nav ul{
+    width: 100%;
+    background: linear-gradient(hsl(0, 0%, 0%),#2e1b2c);
+    position: absolute;
+    right: 0;
+    z-index: 3;
+}
+
+.menu_mobile{
+    width:  5vw;
+	cursor: pointer;     
+} 
+
+#menuList{
+    overflow:hidden;
+    transition:0.5s;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/*MENUS*/
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
+    height: 15vw;
+    gap: 20px;
+    width: 100%;
+    background-color: black;
+    gap: 1vw;
+    padding: 10px 10px 0px 10px;
+}
+.nav-bar a {
+    height: 3vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+    background-color: #1e0f22;
+    padding: 1.0vh 1.5vw;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+   
+
+
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: bottom;
+}
+
+.nav-bar a:nth-child(1) { background-color: #1e0f22; } /* HOME */
+.nav-bar a:nth-child(2) { background-color: #8E44AD; } /* NEWS */
+.nav-bar a:nth-child(3) { background-color: #A569BD; } /* GUIDES */
+.nav-bar a:nth-child(4) { background-color: #BB8FCE; } /* ABOUT US */
+
+.nav-bar a:hover {
+    transform: scaleY(1.1);
+}
+
+.user-icon {
+    align-items: center; 
+    cursor: pointer;
+    flex-basis: 10%;
+    margin:auto;
+    text-align: center;
+    flex-basis:10% ;
+}
+.user-icon img {
+    width: 5vw;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* SECCION DE CARTAS  */
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+.noticias-del-dia {
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+/* Sección de Series */
+.Seccion_Series {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 2vh 0;
+}
+
+/* Estilo del título "Series" */
+.Title_series {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #572261;
+    background-color: #ccc;
+    padding: 1vh 2vw;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Flechas de navegación */
+.prev-page-cards, .next-page-cards {
+    width: 2vw;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.prev-page-cards:hover, .next-page-cards:hover {
+    transform: scale(1.2);
+}
+
+/* Contenedor de las tarjetas */
+.Cards {
+    display: flex;
+    overflow-x: auto;
+    padding: 2vh 0;
+    
+}
+
+/* Cada tarjeta individual */
+.Card {
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    overflow: hidden;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh 1vw;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Imagen de la tarjeta */
+.Card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/*Poner link encima de la tarjeta*/
+.Card-link{
+    position: absolute; /* Posiciona el enlace encima de la tarjeta */
+    top: 0; /* Lo lleva al inicio del contenedor */
+    left: 0; /* Lo coloca al borde izquierdo del contenedor */
+    width: 100%; /* Ocupa todo el ancho de la tarjeta */
+    height: 100%; /* Ocupa todo el alto de la tarjeta */
+    z-index: 2; /* Se asegura de que el enlace esté por encima del contenido */
+}
+
+
+/* Contenedor del texto */
+.Card .content {
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: 'Jersey 10', sans-serif;
+    z-index: 2;
+    transition: bottom 0.5s ease-in-out;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.Card .content p {  
+    font-family: "Jersey 25", sans-serif;  
+    font-weight: 300; 
+    margin: 2vh;
+}
+
+.Card:hover .content {
+    bottom: 0%;
+}
+
+.Card:hover .Card-img {
+    transform: scale(1.1);
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+  /*FOOTER*/
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+/*Iconos redes sociales*/
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los iconos */
+    padding: 10px 0;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Tamaño fijo inicial */
+    height: 40px;
+}
+
+.social-icons img {
+    width: 100%; /* Se ajusta al contenedor */
+    height: auto;
+    max-width: 30px; /* Tamaño máximo */
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+main{
+    flex:1;
+    padding: 20px;
+}
+
+/* BANNER */
+
+/* Banner principal */
+.banner-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100vw;
+    height: auto;
+}
+
+/* Imágenes del banner */
+.banner-3 .imagen {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajuste sin deformar */
+}
+
+/* Texto del banner */
+.banner-text h2 {
+    font-size: 2rem; /* Tamaño normal en desktop */
+}
+
+.banner-text p {
+    font-size: 1.5rem; /* Tamaño normal en desktop */
+}
+
+/* Indicadores */
+.banner-indicators {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.banner-indicators .dot {
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.banner-indicators .dot.active {
+    background: #572261;
+    transform: scale(1.3);
+}
+
+/* Flechas de navegación */
+.next-page-banner,
+.next-page-banner2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/* RESPONSIVIDAD */
+@media screen and (max-width: 1200px) {
+    /*ocultar titulo*/
+
+    header{
+        margin-bottom: 50px;
+    }
+
+    .menu_mobile{
+        display: flex;
+    }
+
+    .logo h1 {
+        display: none;
+    } 
+    
+    /*barra de naveghacion*/
+    .nav-bar a {
+        font-size: 6vw;
+        text-decoration: none;
+        color: white;
+        background-color: #1e0f22;
+        padding: 1.0vh 1.5vw;
+        border-radius: 20px 20px 0 0;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        transform-origin: bottom;
+    }
+    .user-icon {
+        align-items: center; 
+        cursor: pointer;
+        flex-basis: 10%;
+        margin:auto;
+        text-align: center;
+        flex-basis:20% ;
+    }
+
+    .user-icon img {
+        width: 8vw;
+    }
+
+    /*logo*/
+    .logo {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        flex-basis: 40%;
+    }
+    .logo img {
+        width: 15vw;
+        font-size: 3vw;
+        margin-right: 8%;
+    }
+
+    /*barra de busqueda*/
+    .search-container {
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        border-radius: 80px;
+        padding: 1vh 2vw;
+        margin-left: auto;
+        flex-basis:40% ;
+        
+    }  
+
+    .search-container input {
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 10px;
+    }
+
+    .lupa{
+        display: none;
+    }
+
+
+    /* CARTAS */
+
+    .Cards {
+        overflow: hidden;  /* Oculta el scroll lateral */
+        white-space: nowrap; /* Evita el salto de línea */
+    }
+
+    .Card {
+        width: 60vw;
+        height: 60vw; /* Ajuste para mantener la proporción */
+        margin: 2vh 2vw;
+    }
+
+    .Card .content {
+        bottom: 0%; /* Asegura que el contenido no quede fuera */
+        height: auto; /* Ajusta la altura para que el h2 no desaparezca */
+        padding: 1vh 2vw;
+    }
+
+    .Card .content p {
+        display: none; /* Oculta solo la descripción */
+    }
+
+    .Card .content h2 {
+        font-size: 5vw; /* Asegura que el título sea visible y legible */
+    }
+
+    .Seccion_Series {
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos se apilen */
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .Title_series {
+        margin-bottom: 4vh; /* Baja las tarjetas */
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .prev-page-cards, .next-page-cards {
+        align-self: center;
+    }
+
+    .prev-page-cards,
+    .next-page-cards {
+        display: none;
+    }
+
+
+
+/* BANNER */
+
+.banner-3 {
+    flex-direction: column;
+    height: auto;
+}
+
+.banner-3 .imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    font-size: 1.2rem;
+    max-width: 90%;
+}
+
+.banner-indicators .dot {
+    width: 8px;
+    height: 8px;
+}
+
+/* Ocultar flechas en pantallas pequeñas */
+.next-page-banner, 
+.next-page-banner2 {
+    display: none;
+}
+
+.banner-text h2 {
+    font-size: 1.2rem !important; /* Reducido en móviles */
+}
+
+.banner-text p {
+    font-size: 1rem !important; /* Reducido en móviles */
+}
+
+}
+
+
+

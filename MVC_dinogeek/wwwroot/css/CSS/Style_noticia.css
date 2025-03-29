@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jersey 25', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #8E44AD;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+}
+
+
+main{
+    flex:1;/* Ocupa el espacio disponible y empuja el footer hacia abajo */
+    padding:20px;
+}
+
+
+
+/*Pagina noticia*/
+
+/*Contenedor principal de la noticia*/
+.content-container {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    background-color: #512D5A;
+}
+
+.content-container h1 {
+    color: white;
+    margin:20px;
+    font-size: 5vw;
+}
+
+
+/*Imagen del banner*/
+.game-banner {
+    border-radius: 10px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top:30px;
+}
+
+/*texto abajo del titulo*/
+.pie_Titulo {
+    font-size: 1.5vw;
+    color: rgb(245, 245, 100);
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+/*contenedor del Cuerpo del informe*/
+
+.details {
+    text-align: center;
+    background-color: #6A3B6D;
+    padding: 20px 7vw;
+    border-radius: 10px;
+}
+
+.details h2 {
+    font-size: 3.5vw;
+    color: rgb(245, 245, 100);
+    text-align: left;
+    margin-top:30px ;
+    margin-bottom:30px ;
+}
+
+.details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8vw; 
+    line-height: 40px;  
+    color: white;
+    text-align: left;
+    margin-top:40px ;
+    margin-bottom:30px 
+}
+ 
+/*Imagenes del cuerpo de las noticias*/
+.details img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 350px;
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*contedor donde va la info del autor*/
+.autor-container {
+    display:flex;
+    background-color: #381B40;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    margin-right: 60%; 
+}
+
+.autor-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Hace la imagen redonda */
+    margin-right: 15px;
+   
+}
+
+/* Nombre del autor */
+.autor-container h3 {
+    color: white;
+    font-size: 1.5vw;
+}
+
+/* Descripción */
+.autor-container p {
+    color: white;
+    margin: 5px 0 0;
+    font-size: 0.7vw;
+    opacity: 0.8;
+}
+
+/* Fecha de publicación */
+.article-date {
+    color: #FFD700;
+    font-size: 0.8vw;
+    padding-left: 9vw;
+}
+
+/*Diseño responsive*/
+@media (max-width: 1200px) {
+    
+    /*Contenedor principal de la noticia*/
+    .content-container {
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #512D5A;
+    }
+
+
+    /*texto abajo del titulo*/
+    .pie_Titulo {
+        font-size: 2.5vw;
+        color: rgb(245, 245, 100);
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+   
+    /*texto cuerpo del articulo*/
+    .details p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5vw; 
+        line-height: 20px;  
+        color: white;
+        text-align: left;
+        margin-top:40px ;
+        margin-bottom:30px 
+    }
+
+
+
+    /*contedor donde va la info del autor*/
+    .autor-container {
+        display:flex;
+        background-color: #381B40;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px; 
+        margin-right: 10vw; 
+    }
+
+    .autor-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%; /* Hace la imagen redonda */
+        margin-right: 15px;
+        
+    }
+
+    /* Nombre del autor */
+    .autor-container h3 {
+        color: white;
+        margin: 0;
+        font-size: 4vw;
+    }
+
+    /* Descripción */
+    .autor-container p {
+        color: white;
+        margin: 5px 0 0;
+        font-size: 2.5vw;
+        opacity: 0.8;
+    }
+
+    /* Fecha de publicación */
+    .article-date {
+        color: #FFD700;
+        font-size: 2vw;
+        padding-left: 9vw;
+    }
+   
+}
+
+
+
+
+

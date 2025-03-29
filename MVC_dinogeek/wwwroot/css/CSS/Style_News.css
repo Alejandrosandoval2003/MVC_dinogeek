@@ -1,0 +1,264 @@
+body {
+    width: 100%;
+    background-color: #8E44AD;
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Contenedor principal que agrupa sidebar y contenido */
+.page-container {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar ajustado */
+.sidebar {
+    width: 200px;  /* Ancho fijo */
+    background-color: #7f3d9b; /* Un poco más oscuro para diferenciar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 235vh;  /* Ocupar toda la altura */
+}
+
+.sidebar button {
+    background-color: #bc65e0;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 60px;
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sidebar button:hover {
+    transform: scale(1.1);
+}
+
+.sidebar button span {
+    font-size: 30px;
+}
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.grid.custom-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas */
+    justify-content: space-evenly; /* Distribuye las tarjetas uniformemente */
+    gap: 20px;
+    width: 100%;
+}
+
+/* Grid de imágenes */
+.custom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre tarjetas */
+    padding: 0px;
+    max-width: 100%; /* Ajusta el ancho total para que entren 4 tarjetas */
+    margin: 0 auto; /* Centra el grid */
+}
+
+.custom-grid .Card {
+    width: 20%; /* Mantiene dos por fila */
+    max-width: 300px; /* Ajusta según necesidad */
+    height: 400px; /* Altura fija para todas las tarjetas */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    padding: 0;
+}
+
+.custom-grid .Card-img {
+    width: 100%;
+    height: 100%; /* Ocupa toda la altura del contenedor */
+    object-fit: cover; /* Recorta para llenar el espacio sin deformarse */
+    object-position: center; /* Centra la imagen */
+}
+
+.custom-grid .content {
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.custom-grid .Card:hover {
+    scale: 1.05;
+}
+
+/* Contenedor del botón Sort By */
+.sort-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Botón principal */
+.sort-button {
+    width: 100%;
+    background-color: #bc65e0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+
+/* Menú desplegable oculto por defecto */
+.sort-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #9c52b5;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 10;
+}
+
+/* Estilos de los botones dentro del dropdown */
+.sort-options button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sort-options button:hover {
+    background-color: #b169d3;
+}
+
+/* Mostrar el menú cuando el botón es presionado */
+.sort-container:hover .sort-options {
+    display: flex;
+}
+
+.next-page {
+    z-index: 2;
+    position: absolute;
+    right: 10px;
+    top: 115%;
+    transform: translateY(-50%);
+    background-color: #bc65e0;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.next-page:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+    /* Ajustar el layout general */
+    .page-container {
+        flex-direction: column; /* Apila sidebar y contenido principal */
+    }
+
+    /* Sidebar más compacta */
+    .sidebar {
+        width: 100%; /* Ocupar todo el ancho */
+        height: auto; /* Ajustar la altura automáticamente */
+        flex-direction: row; /* Botones en línea */
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 5px;
+ 
+    }
+
+    .sidebar button {
+        font-size: 18px;
+        padding: 8px;
+        border-radius: 40px;
+    }
+
+    .sidebar button span {
+        font-size: 22px;
+    }
+
+    /* Ajustar contenido principal */
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /* Modificar el grid */
+    .custom-grid .Card {
+        width: 45%; /* Dos por fila en pantallas pequeñas */
+        max-width: none;
+        height: auto; /* Altura flexible */
+    }
+
+    .custom-grid .Card-img {
+        height: 200px; /* Ajustar altura de la imagen */
+    }
+
+    .custom-grid .content {
+        padding: 10px;
+    }
+
+    /* Ajustes en el botón de paginación */
+    .next-page {
+        top: 105%; /* Ajustar posición en pantallas pequeñas */
+        font-size: 20px;
+        padding: 6px 8px;
+    }
+
+    .custom-grid .content {
+        font-size: 20px !important; /* Forzar el tamaño */
+        font-weight: bold !important;
+    }
+
+    /* Si hay otros elementos dentro del contenido de la tarjeta */
+    .custom-grid .content * {
+        font-size: 15px !important; /* Aplica a todos los elementos dentro */
+    }
+}
+
+
+

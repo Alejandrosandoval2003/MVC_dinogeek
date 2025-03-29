@@ -1,0 +1,308 @@
+body {
+    background-color: #A569BD;
+}
+
+.Titulo_guias {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    margin: 5vh 1vw;
+    padding: 1vh;
+    background-color: #572261;
+    border-radius: 50px;
+}
+
+.Imagen_guias {
+    position: relative;
+    width: 96%;
+    height: 80vh;
+    margin: 2% auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Imagen_guias .imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover; 
+}
+
+.plataformas-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.plataformas-container h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.plataformas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.plataformas img {
+    width: 70px; /* Tamaño unificado para todos los logos */
+    height: 70px;
+    object-fit: contain;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.trofeos-container {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 22px; /* Reducido un poco para mejor proporción */
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.trofeos-container span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.trofeos-container img {
+    width: 22px; /* Ajusta el tamaño de las imágenes de los trofeos */
+    height: auto;
+}
+
+.metacritic-container {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.metascore {
+    background: #6ab04c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.metacritic-container img {
+    height: 30px;
+}
+
+
+.Achivements_titulo {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: white;
+    margin: 5vh 1vw;
+    padding: 1vh;
+    background-color: #572261;
+    border-radius: 50px;
+}
+
+.achievements {
+    height: 180px; 
+    background-color: #1e032488;
+    display: flex;
+    margin: 5vh 2vw;
+    align-items: center;
+    padding: 15px 20px; 
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.achievement-icon img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto 0; 
+}
+
+.achievement-info {
+    flex-grow: 1;
+    padding-left: 20px;
+    color: #b0c4de; 
+}
+
+.achievement-info h3 {
+    margin: 0;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.achievement-info p {
+    margin: 5px 0 0;
+    font-size: 25px;
+    color: #a9a9a9;
+}
+
+
+.description {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    width: 100%;  
+    text-align: center;  
+}
+
+.description p {
+    max-width: 60%;  
+    font-size: 25px;
+    color: #a9a9a9;
+}
+
+.achievement-percentage {
+    font-size: 25px;
+    color: #4da6ff; 
+    padding-right: 20px;
+}
+
+.achievements:hover  {
+    transform: scale(1.02);
+}
+
+
+@media (max-width: 1200px) {
+    
+    /* Título de las guías */
+    .Titulo_guias {
+        font-size: 6vw;
+        margin: 3vh 2vw;
+        padding: 1.5vh;
+    }
+
+    /* Imagen principal de la guía */
+    .Imagen_guias {
+        width: 95%;
+        height: 50vh; /* Reduce la altura en pantallas pequeñas */
+        margin-top: 4%;
+    }
+
+    .Imagen_guias .imagen {
+        border-radius: 30px;
+    }
+
+    /* Contenedor de plataformas */
+    .plataformas-container h2 {
+        font-size: 24px; /* Reduce tamaño del texto */
+    }
+
+    .plataformas img {
+        width: 50px; /* Reduce el tamaño de los iconos */
+        height: 50px;
+    }
+
+    /* Ajuste de los trofeos */
+    .trofeos-container {
+        bottom: 15px;
+        right: 15px;
+        padding: 8px 12px;
+        font-size: 18px;
+    }
+
+    .trofeos-container img {
+        width: 18px;
+    }
+
+    /* Ajuste del metacritic */
+    .metacritic-container {
+        bottom: 15px;
+        left: 15px;
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    .metascore {
+        font-size: 24px;
+        padding: 4px 8px;
+    }
+
+    .metacritic-container img {
+        height: 25px;
+    }
+
+    /* Sección de logros */
+    .Achivements_titulo {
+        font-size: 4.5vw;
+        margin: 4vh 2vw;
+        padding: 1.5vh;
+    }
+
+    .achievements {
+        height: auto; /* Ajusta altura según contenido */
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .achievement-icon img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .achievement-info {
+        padding-left: 0;
+    }
+
+    .achievement-info h3 {
+        font-size: 28px;
+    }
+
+    .achievement-info p {
+        font-size: 18px;
+    }
+
+    .achievement-percentage {
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    /* Ajuste de la descripción */
+    .description p {
+        max-width: 80%;
+        font-size: 20px;
+    }
+
+        /* Ajuste del contenedor de trofeos */
+        .trofeos-container {
+            display: none;
+        }
+    
+    
+        /* Ajuste del contenedor de Metacritic */
+        .metacritic-container {
+            display: none;
+        }
+    
+}

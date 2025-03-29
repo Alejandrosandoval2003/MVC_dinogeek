@@ -1,0 +1,729 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC_dinogeek.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVC_dinogeek.35vn597rqn.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\Flecha_derecha.PNG",
+      "PackagePath": "staticwebassets\\Imagenes\\Flecha_derecha.PNG"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\Flecha_izquierda.PNG",
+      "PackagePath": "staticwebassets\\Imagenes\\Flecha_izquierda.PNG"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\AC Black Flag.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\AC Black Flag.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\ACshadows.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\ACshadows.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Cuphead.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Cuphead.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Elden Ring Shadow of the Erdtree.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Elden Ring Shadow of the Erdtree.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Invencible.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Invencible.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\It Welcome to Derry.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\It Welcome to Derry.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Los Cuatro Fantásticos Primeros Pasos.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Los Cuatro Fantásticos Primeros Pasos.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Monster Hunter Wilds.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Monster Hunter Wilds.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Paladins.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Paladins.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Pc Acer.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Pc Acer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Pc Acer.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Pc Acer.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Persona.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Persona.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\S.T.A.L.K.E.R. 2.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\S.T.A.L.K.E.R. 2.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\SEKIRO+.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\SEKIRO+.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Sololeveling.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Sololeveling.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\Split Fiction.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\Split Fiction.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\The Witcher Sirenas de las profundidades.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\The Witcher Sirenas de las profundidades.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\capitan.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\capitan.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\eldenring.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\eldenring.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\far cry.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\far cry.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\gta6.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\gta6.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\hollow knight.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\hollow knight.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\jordi-wild-maduro-3.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\jordi-wild-maduro-3.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\jordi-wild-maduro-3.webp",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\jordi-wild-maduro-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\jurassic.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\jurassic.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\readdead.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\readdead.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\sifu.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\sifu.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\sonic.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\sonic.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\spiderman-2-thumb.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\spiderman-2-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\spiderman-2-thumb.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\spiderman-2-thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\stranger things temporada 5.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\stranger things temporada 5.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\superman legacy.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\superman legacy.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\the last of us temporada 2.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\the last of us temporada 2.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\HOME_IMAGES\\your lie in april.png",
+      "PackagePath": "staticwebassets\\Imagenes\\HOME_IMAGES\\your lie in april.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Acepta el vacio.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Acepta el vacio.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Animoso.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Animoso.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Consuelo.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Consuelo.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Logro_01.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Logro_01.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Logro_02.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Logro_02.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Logro_03.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Logro_03.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Logro_04.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Logro_04.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Metacritic_M.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Metacritic_M.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\Metacritic_logo.svg.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\Metacritic_logo.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\NINTENDO.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\NINTENDO.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\PC.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\PC.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\PS4.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\PS4.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\XBOX.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\XBOX.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\bronce.PNG",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\bronce.PNG"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\hollow knight_02.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\hollow knight_02.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\oro.PNG",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\oro.PNG"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\plata.PNG",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\plata.PNG"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\LOGROS\\platino.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LOGROS\\platino.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\Mobile_Menu.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Mobile_Menu.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\dinosaurio.png",
+      "PackagePath": "staticwebassets\\Imagenes\\dinosaurio.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\fb.png",
+      "PackagePath": "staticwebassets\\Imagenes\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\ig.png",
+      "PackagePath": "staticwebassets\\Imagenes\\ig.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\lupa negra.png",
+      "PackagePath": "staticwebassets\\Imagenes\\lupa negra.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\tw.png",
+      "PackagePath": "staticwebassets\\Imagenes\\tw.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\usuario.png",
+      "PackagePath": "staticwebassets\\Imagenes\\usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\willy3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\willy3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes\\yt.png",
+      "PackagePath": "staticwebassets\\Imagenes\\yt.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\Willy 2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\Willy 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\andrs.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\andrs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\andrs2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\andrs2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\mochi.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\mochi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\mochi2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\mochi2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\sando.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\sando.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\sando2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\sando2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_About_us\\willy.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_About_us\\willy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Cuphead.avif",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Cuphead.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\DS3.webp",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\DS3.webp"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\ER.avif",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\ER.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Far Cry 3.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Far Cry 3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\HK.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\HK.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Isaac.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Isaac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Lies of P.avif",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Lies of P.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\P3R.webp",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\P3R.webp"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\P5R.avif",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\P5R.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Super Hot.avif",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Super Hot.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Undertale.avif",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Undertale.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Wo.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Wo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticia\\autor.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticia\\autor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticia\\silk_noticia2.png",
+      "PackagePath": "staticwebassets\\Imagenes_Noticia\\silk_noticia2.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticia\\silksong banner.png",
+      "PackagePath": "staticwebassets\\Imagenes_Noticia\\silksong banner.png"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticia\\silksong_pastel.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticia\\silksong_pastel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Blue Lock.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Blue Lock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\FF7.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\FF7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\GTA VI.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\GTA VI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Imbecil.webp",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Imbecil.webp"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Kaiser_Anime.webp",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Kaiser_Anime.webp"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\LoL.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\LoL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Monster HUnter.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Monster HUnter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\P4.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\P4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Paladins.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Paladins.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Pastel.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Pastel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Persona 3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Persona 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\RRmartin.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\RRmartin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Silksong.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Silksong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Smite 2.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Smite 2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Solo Leveling.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Solo Leveling.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\Spiderman.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\Spiderman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Noticias\\The Witcher.jpg",
+      "PackagePath": "staticwebassets\\Imagenes_Noticias\\The Witcher.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_About_Us.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_About_Us.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_Guides.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_Guides.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_News.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_News.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_guia.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_guia.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_loginl.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_loginl.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_noticia.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_noticia.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_principal.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Style_principal.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Syle_Home.css",
+      "PackagePath": "staticwebassets\\css\\CSS\\Syle_Home.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\js\\JS\\JS_Home.js",
+      "PackagePath": "staticwebassets\\js\\JS\\JS_Home.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\js\\JS\\functions.js",
+      "PackagePath": "staticwebassets\\js\\JS\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\js\\JS\\menu.js",
+      "PackagePath": "staticwebassets\\js\\JS\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC_dinogeek.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC_dinogeek.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MVC_dinogeek.props",
+      "PackagePath": "build\\MVC_dinogeek.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC_dinogeek.props",
+      "PackagePath": "buildMultiTargeting\\MVC_dinogeek.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVC_dinogeek.props",
+      "PackagePath": "buildTransitive\\MVC_dinogeek.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

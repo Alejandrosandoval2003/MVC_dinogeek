@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<link rel="stylesheet" href="~/css/CSS/Style_loginl.css" asp-append-version="true" />
+<script src="~/js/JS/functions.js" asp-append-version="true"></script>
+
+<main>
+    <div class="container">
+
+
+        <!-- Caja de Login -->
+        <div class="login-box">
+            <button class="BackBtt" onclick="goTo('@Url.Action("Index", "Home")')">↩</button>
+            <h1 class="log-in">LOG-IN</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" class="userName">
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" class="userPass">
+            </div>
+            <button class="accept-login" onclick="validateUser()">Accept</button>
+            <button class="Register" onclick="goTo('@Url.Action("Register", "Home")')">Registrarse</button>
+        </div>
+    </div>
+</main>

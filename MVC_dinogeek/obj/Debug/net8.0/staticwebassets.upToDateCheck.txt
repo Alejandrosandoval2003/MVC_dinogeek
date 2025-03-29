@@ -1,0 +1,175 @@
+wwwroot\css\CSS\Style_About_Us.css
+wwwroot\css\CSS\Style_guia.css
+wwwroot\css\CSS\Style_Guides.css
+wwwroot\css\CSS\Style_loginl.css
+wwwroot\css\CSS\Style_News.css
+wwwroot\css\CSS\Style_noticia.css
+wwwroot\css\CSS\Style_principal.css
+wwwroot\css\CSS\Syle_Home.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Imagenes\dinosaurio.png
+wwwroot\Imagenes\fb.png
+wwwroot\Imagenes\Flecha_derecha.PNG
+wwwroot\Imagenes\Flecha_izquierda.PNG
+wwwroot\Imagenes\HOME_IMAGES\AC Black Flag.png
+wwwroot\Imagenes\HOME_IMAGES\ACshadows.png
+wwwroot\Imagenes\HOME_IMAGES\capitan.png
+wwwroot\Imagenes\HOME_IMAGES\Cuphead.png
+wwwroot\Imagenes\HOME_IMAGES\Elden Ring Shadow of the Erdtree.png
+wwwroot\Imagenes\HOME_IMAGES\eldenring.png
+wwwroot\Imagenes\HOME_IMAGES\far cry.png
+wwwroot\Imagenes\HOME_IMAGES\gta6.png
+wwwroot\Imagenes\HOME_IMAGES\hollow knight.png
+wwwroot\Imagenes\HOME_IMAGES\Invencible.png
+wwwroot\Imagenes\HOME_IMAGES\It Welcome to Derry.png
+wwwroot\Imagenes\HOME_IMAGES\jordi-wild-maduro-3.png
+wwwroot\Imagenes\HOME_IMAGES\jordi-wild-maduro-3.webp
+wwwroot\Imagenes\HOME_IMAGES\jurassic.png
+wwwroot\Imagenes\HOME_IMAGES\Los Cuatro Fantásticos Primeros Pasos.png
+wwwroot\Imagenes\HOME_IMAGES\Monster Hunter Wilds.png
+wwwroot\Imagenes\HOME_IMAGES\Paladins.png
+wwwroot\Imagenes\HOME_IMAGES\Pc Acer.jpg
+wwwroot\Imagenes\HOME_IMAGES\Pc Acer.png
+wwwroot\Imagenes\HOME_IMAGES\Persona.png
+wwwroot\Imagenes\HOME_IMAGES\readdead.png
+wwwroot\Imagenes\HOME_IMAGES\S.T.A.L.K.E.R. 2.png
+wwwroot\Imagenes\HOME_IMAGES\SEKIRO+.png
+wwwroot\Imagenes\HOME_IMAGES\sifu.png
+wwwroot\Imagenes\HOME_IMAGES\Sololeveling.png
+wwwroot\Imagenes\HOME_IMAGES\sonic.png
+wwwroot\Imagenes\HOME_IMAGES\spiderman-2-thumb.jpg
+wwwroot\Imagenes\HOME_IMAGES\spiderman-2-thumb.png
+wwwroot\Imagenes\HOME_IMAGES\Split Fiction.png
+wwwroot\Imagenes\HOME_IMAGES\stranger things temporada 5.png
+wwwroot\Imagenes\HOME_IMAGES\superman legacy.png
+wwwroot\Imagenes\HOME_IMAGES\the last of us temporada 2.png
+wwwroot\Imagenes\HOME_IMAGES\The Witcher Sirenas de las profundidades.png
+wwwroot\Imagenes\HOME_IMAGES\your lie in april.png
+wwwroot\Imagenes\ig.png
+wwwroot\Imagenes\LOGROS\Acepta el vacio.png
+wwwroot\Imagenes\LOGROS\Animoso.png
+wwwroot\Imagenes\LOGROS\bronce.PNG
+wwwroot\Imagenes\LOGROS\Consuelo.png
+wwwroot\Imagenes\LOGROS\hollow knight_02.png
+wwwroot\Imagenes\LOGROS\Logro_01.png
+wwwroot\Imagenes\LOGROS\Logro_02.png
+wwwroot\Imagenes\LOGROS\Logro_03.png
+wwwroot\Imagenes\LOGROS\Logro_04.png
+wwwroot\Imagenes\LOGROS\Metacritic_logo.svg.png
+wwwroot\Imagenes\LOGROS\Metacritic_M.png
+wwwroot\Imagenes\LOGROS\NINTENDO.png
+wwwroot\Imagenes\LOGROS\oro.PNG
+wwwroot\Imagenes\LOGROS\PC.png
+wwwroot\Imagenes\LOGROS\plata.PNG
+wwwroot\Imagenes\LOGROS\platino.png
+wwwroot\Imagenes\LOGROS\PS4.png
+wwwroot\Imagenes\LOGROS\XBOX.png
+wwwroot\Imagenes\lupa negra.png
+wwwroot\Imagenes\ñiñi.png
+wwwroot\Imagenes\tw.png
+wwwroot\Imagenes\usuario.png
+wwwroot\Imagenes\willy3.jpg
+wwwroot\Imagenes\yt.png
+wwwroot\Imagenes_About_us\andrs.jpg
+wwwroot\Imagenes_About_us\andrs2.jpg
+wwwroot\Imagenes_About_us\mochi.jpg
+wwwroot\Imagenes_About_us\mochi2.jpg
+wwwroot\Imagenes_About_us\sando.jpg
+wwwroot\Imagenes_About_us\sando2.jpg
+wwwroot\Imagenes_About_us\Willy 2.jpg
+wwwroot\Imagenes_About_us\willy.jpg
+wwwroot\Imagenes_Guias\Cuphead.avif
+wwwroot\Imagenes_Guias\DS3.webp
+wwwroot\Imagenes_Guias\ER.avif
+wwwroot\Imagenes_Guias\Far Cry 3.jpeg
+wwwroot\Imagenes_Guias\HK.jpeg
+wwwroot\Imagenes_Guias\Isaac.jpg
+wwwroot\Imagenes_Guias\Lies of P.avif
+wwwroot\Imagenes_Guias\P3R.webp
+wwwroot\Imagenes_Guias\P5R.avif
+wwwroot\Imagenes_Guias\Super Hot.avif
+wwwroot\Imagenes_Guias\Undertale.avif
+wwwroot\Imagenes_Guias\Wo.jpg
+wwwroot\Imagenes_Noticia\autor.jpg
+wwwroot\Imagenes_Noticia\silk_noticia2.png
+wwwroot\Imagenes_Noticia\silksong banner.png
+wwwroot\Imagenes_Noticia\silksong_pastel.jpeg
+wwwroot\Imagenes_Noticias\Blue Lock.jpg
+wwwroot\Imagenes_Noticias\FF7.jpg
+wwwroot\Imagenes_Noticias\GTA VI.jpg
+wwwroot\Imagenes_Noticias\Imbecil.webp
+wwwroot\Imagenes_Noticias\Kaiser_Anime.webp
+wwwroot\Imagenes_Noticias\LoL.jpg
+wwwroot\Imagenes_Noticias\Monster HUnter.jpg
+wwwroot\Imagenes_Noticias\P4.jpg
+wwwroot\Imagenes_Noticias\Paladins.jpeg
+wwwroot\Imagenes_Noticias\Pastel.jpeg
+wwwroot\Imagenes_Noticias\Persona 3.jpg
+wwwroot\Imagenes_Noticias\RRmartin.jpg
+wwwroot\Imagenes_Noticias\Silksong.jpg
+wwwroot\Imagenes_Noticias\Smite 2.jpeg
+wwwroot\Imagenes_Noticias\Solo Leveling.jpg
+wwwroot\Imagenes_Noticias\Spiderman.jpg
+wwwroot\Imagenes_Noticias\The Witcher.jpg
+wwwroot\js\JS\functions.js
+wwwroot\js\JS\JS_Home.js
+wwwroot\js\JS\menu.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

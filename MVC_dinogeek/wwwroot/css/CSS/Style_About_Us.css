@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jersey 25', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #BB8FCE;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+}
+
+
+main{
+    flex:1;/* Ocupa el espacio disponible y empuja el footer hacia abajo */
+    padding:20px;
+}
+
+/*ABOUT US*/
+.team-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #8E44AD;
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.linea_about{
+    width: 100%;
+    padding: 0px 10vw;
+}
+
+.Linea_texto{
+    width: 100%;
+}
+
+/* Contenedor de Acerca de Nosotros */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    background-color: #8E44AD;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+/* Imagen del dinosaurio */
+.about-container img {
+    width: auto; /* Ajustar tamaño */
+    height: 20vw; /* Mantiene proporciones */
+    margin-right: 100px; /* Espaciado con el texto */
+}
+
+/* Texto del acerca de */
+.about-text {
+    font-size: 2vw; 
+    line-height: 1.6;
+    color: white;
+    flex: 1; /* Hace que el texto ocupe el espacio restante */
+}
+
+/*Titulo de el equipo de dinogeek*/
+h2{
+    text-align: center; 
+    font-size: 3.5vh; 
+    line-height: 1.5;
+    color: white;
+}
+
+/*cartas de miembros*/
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta el número de columnas automáticamente */
+    gap: 5vw;
+    padding: 6vh;
+    justify-items: center; /* Centra las tarjetas */
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    border-radius: 4px ;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.card:before,.card:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: 0.5s;
+    z-index: -1;
+
+}
+.card:hover:before{
+    transform: rotate(20deg);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.card:hover:after{
+    transform: rotate(10deg);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+   
+}
+.card .imgbox{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #222;
+    transition: 0.5s;
+    z-index: 2;
+}
+.card:hover .imgbox{
+    bottom: 80px;
+}
+
+
+
+.card .details{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+}
+.card h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 100%;
+    color: #777;
+    text-transform:uppercase ;
+}
+.card h3 span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #f38695;
+}
+.card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/*Colores diferentes para cada tarjeta */
+.card:nth-child(1)::before,
+.card:nth-child(1)::after {
+    background-color: red; /* Rojo Naranja */
+}
+
+.card:nth-child(2)::before,
+.card:nth-child(2)::after {
+    background-color: #FF5733; /* Verde */
+}
+
+.card:nth-child(3)::before,
+.card:nth-child(3)::after {
+    background-color: #3380FF; /* Azul */
+}
+
+.card:nth-child(4)::before,
+.card:nth-child(4)::after {
+    background-color: #FF33A6; /* Rosa */
+}
+
+.card:nth-child(5)::before,
+.card:nth-child(5)::after {
+    background-color: #FFD700; /* Dorado */
+}
+
+.Contact_us {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    background-color: #8E44AD;
+    padding: 20px; /* Ajustar padding */
+    text-align: center;
+}
+
+.Contact_us_text textarea {
+    width: 90%;
+    min-height: 30px; /* Reducir altura mínima */
+    font-size: 20px; /* Reducir tamaño de fuente */
+    padding: 10px;
+    margin: 15px;
+    overflow-y: hidden;
+    resize: none;
+    box-sizing: border-box;
+    background-color: #58256e;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.Contact_us_text textarea::placeholder {
+    color: #ffffff;
+}
+
+.Correo_contacto input {
+    font-size: 24px; /* Reducir tamaño de fuente */
+    width: 40%;
+    height: 35px;
+    background-color: #58256e;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.Correo_contacto input::placeholder {
+    color: #ffffff;
+}
+
+.BotonEnviar {
+    border-radius: 5%;
+    width: 180px; /* Reducir tamaño del botón */
+    height: 50px;
+    font-size: 24px;
+    background-color: #58256e;
+    color: #ffffff;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.BotonEnviar:hover {
+    background-color: #6C3483; /* Color más oscuro al pasar el mouse */
+}
+
+.NewsLetter {
+    text-align: center;
+    background-color: #8E44AD; /* Mismo color que .Contact_us */
+    border-radius: 30px;
+    padding: 20px; /* Ajustado */
+    margin: 15px;
+    color: #ffffff;
+}
+
+.NewsLetter h2 {
+    margin-bottom: 10px;
+}
+
+.NewsLetter h3 {
+    font-size: 20px; /* Reducido */
+    margin: 10px 0;
+}
+
+.CorreoSuscripcion {
+    font-size: 24px;
+    width: 45%;
+    height: 35px;
+    background-color: #58256e;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px auto; 
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    display: block; 
+}
+
+.CorreoSuscripcion::placeholder {
+    color: #ffffff;
+    text-align: center;
+}
+
+.BotonSus {
+    border-radius: 5%;
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #58256e;
+    color: #ffffff;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.BotonSus:hover {
+    background-color: #6C3483; /* Color más oscuro al pasar el mouse */
+}
+
+/*Diseño responsive*/
+@media (max-width: 1200px) {
+    
+    /* Ajuste del contenedor "Acerca de" */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* Imagen del dinosaurio más pequeña y centrada */
+    .about-container img {
+        height: 30vw; /* Se reduce el tamaño pero mantiene la relación de aspecto */
+        max-height: 200px; /* Evita que sea demasiado grande */
+        margin: 0 auto 15px auto;
+    }
+
+    /* Texto más grande y mejor distribuido */
+    .about-text {
+        font-size: 4vw;
+        line-height: 1.4;
+        padding: 0 5vw;
+    }
+
+    /* Ajuste de las tarjetas de miembros */
+    .team-members {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Tamaño más pequeño */
+        gap: 4vw;
+    }
+
+    .card {
+        height: 350px; /* Reducimos altura */
+    }
+
+    .card .imgbox {
+        top: 5px;
+        left: 5px;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    /* Ajuste de imágenes dentro de las tarjetas */
+    .card img {
+        width: 100%;
+        height: 100%; /* Mantiene relación de aspecto */
+        object-fit: cover;
+    }
+
+    /* Ajuste del formulario de contacto */
+    .Contact_us_text textarea {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .Correo_contacto input,
+    .CorreoSuscripcion {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .BotonEnviar, .BotonSus {
+        width: 150px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    /* Títulos más pequeños */
+    h2 {
+        font-size: 3vh;
+    }
+}

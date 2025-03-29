@@ -1,0 +1,251 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/CSS/Syle_Home.css" asp-append-version="true" />
+<script src="~/js/JS/JS_HOME.js" asp-append-version="true"></script>
+
+<main>
+
+    <div class="banner-3">
+        <img class="imagen img1" src="~/Imagenes/HOME_IMAGES/spiderman-2-thumb.png" />
+        <img class="imagen img2" src="~/Imagenes//HOME_IMAGES/jordi-wild-maduro-3.png" />
+        <img class="imagen img3" src="~/Imagenes/HOME_IMAGES/Pc Acer.png" />
+        <img class="imagen img4" src="~/Imagenes/HOME_IMAGES/readdead.png" />
+
+
+
+        <div class="banner-text">
+            <h2 id="banner-title"></h2>
+            <p id="banner-description"></p>
+        </div>
+
+        <div class="banner-indicators">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+        </div>
+
+        <div class="component-1"></div>
+        <img class="next-page-banner" src="~/Imagenes/Flecha_izquierda.png" />
+        <img class="next-page-banner2" src="~/Imagenes/Flecha_derecha.png" />
+    </div>
+
+    <div class="noticias-del-dia">Noticias del dia</div>
+    <!-- SERIES -->
+
+    <div class="Seccion_Series">
+        <div class="Title_series">Series</div>
+        <img class="prev-page-cards" src="~/Imagenes/Flecha_izquierda.png" />
+        <div class="Cards">
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Sololeveling.png">
+                <div class="content">
+                    <h2>Solo Leveling</h2>
+                    <p>"La cacería continúa." La segunda temporada está en camino, y Jin-Woo enfrentará enemigos más letales mientras su poder sigue creciendo.</p>
+                    <a class="Card-link" asp-area="" asp-controller="Home" asp-action="New"></a>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/the last of us temporada 2.png">
+                <div class="content">
+                    <h2>The Last of Us</h2>
+                    <p>Joel y Ellie continúan su viaje en un mundo aún más peligroso. Nuevos aliados, enemigos letales y decisiones que cambiarán todo.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/your lie in april.png">
+                <div class="content">
+                    <h2>Your Lie in April</h2>
+                    <p>"La música que rompe corazones." Una historia de amor y superación que sigue emocionando con su inolvidable melodía.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/stranger things temporada 5.png">
+                <div class="content">
+                    <h2>Stranger Things</h2>
+                    <p>La batalla final por Hawkins se acerca. Eleven y su grupo enfrentarán su mayor desafío en una temporada épica llena de sorpresas.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Invencible.png">
+                <div class="content">
+                    <h2>Invencible</h2>
+                    <p>"Nuevos enemigos, nuevas traiciones." Mark regresa en la segunda temporada, con batallas más intensas y el peso del legado de Omni-Man.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/It Welcome to Derry.png">
+                <div class="content">
+                    <h2>It: Welcome to Derry</h2>
+                    <p>El terror regresa con Pennywise en esta precuela que revela sus oscuros orígenes. Más miedo, más misterios y un Derry aterrador como nunca antes.</p>
+                </div>
+            </div>
+        </div>
+
+        <img class="next-page-cards" src="~/Imagenes/Flecha_derecha.png" />
+    </div>
+
+    <!-- JUEGOS -->
+    <div class="Seccion_Series">
+        <div class="Title_series">JUEGOS</div>
+        <img class="prev-page-cards" src="~/Imagenes/Flecha_izquierda.png" />
+        <div class="Cards">
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Persona.png">
+                <div class="content">
+                    <h2>Persona 5: El JRPG que no muere</h2>
+                    <p>Años después, Persona 5 sigue dominando. Con spin-offs y expansiones, Atlus exprime su éxito. ¿Se acerca Persona 6?</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/ACshadows.png">
+                <div class="content">
+                    <h2>Assassin’s Creed Shadows</h2>
+                    <p>Ubisoft finalmente lleva la saga al Japón feudal con un samurái y una shinobi. ¿El Ghost of Tsushima de Assassin’s Creed o algo distinto?</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Paladins.png">
+                <div class="content">
+                    <h2>Paladins dice adiós</h2>
+                    <p>Hi-Rez Studios pone fin al soporte de Paladins. El shooter que desafió a Overwatch deja su última actualización y una comunidad nostálgica.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Monster Hunter Wilds.png">
+                <div class="content">
+                    <h2>Monster Hunter Wilds</h2>
+                    <p>"Un nuevo mundo salvaje te espera." Monster Hunter Wilds lleva la caza a terrenos dinámicos y llenos de vida, con criaturas imponentes y un ecosistema más realista que nunca.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Elden Ring Shadow of the Erdtree.png">
+                <div class="content">
+                    <h2>Elden Ring: Shadow of the Erdtree</h2>
+                    <p>"La sombra del Árbol Áureo se expande." La esperada expansión de Elden Ring trae nuevas tierras, enemigos letales y secretos ocultos en las sombras de la Erdtree.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Split Fiction.png">
+                <div class="content">
+                    <h2>Split Fiction</h2>
+                    <p>"Los mundos chocan en este crossover de ensueño." Un juego de peleas con personajes icónicos de la cultura geek, fusionando estilos y universos en combates espectaculares.</p>
+                </div>
+            </div>
+        </div>
+
+        <img class="next-page-cards" src="~/Imagenes/Flecha_derecha.png" />
+    </div>
+
+    <!-- Peliculas -->
+    <div class="Seccion_Series">
+        <div class="Title_series">Peliculas</div>
+        <img class="prev-page-cards" src="~/Imagenes/Flecha_izquierda.png" />
+        <div class="Cards">
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/capitan.png">
+                <div class="content">
+                    <h2>Capitán América 4</h2>
+                    <p>Sam Wilson toma el mando en Brave New World. Marvel busca revitalizar el UCM con viejos aliados y nuevas amenazas.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/jurassic.png">
+                <div class="content">
+                    <h2>Jurassic World: Rebirth</h2>
+                    <p>Universal reinventa la saga con un mundo donde humanos y dinosaurios intentan coexistir. ¿Éxito o más de lo mismo?</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/sonic.png">
+                <div class="content">
+                    <h2>Sonic 3</h2>
+                    <p>La secuela traerá a Shadow the Hedgehog y una historia más oscura. ¿Será el villano que Sonic necesita?.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/The Witcher Sirenas de las profundidades.png">
+                <div class="content">
+                    <h2>The Witcher: Sirenas de las profundidades</h2>
+                    <p>"Geralt enfrenta un misterio submarino." Una aldea costera es atacada y el Lobo Blanco debe descubrir si los culpables son humanos o criaturas de las profundidades.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/Los Cuatro Fantásticos Primeros Pasos.png">
+                <div class="content">
+                    <h2>Los Cuatro Fantásticos: Primeros Pasos</h2>
+                    <p>"La Primera Familia de Marvel llega al UCM." Reed, Sue, Johnny y Ben se enfrentan a nuevos desafíos en una aventura ambientada en un mundo retro-futurista.</p>
+                </div>
+            </div>
+
+            <div class="Card">
+                <img class="Card-img" src="~/Imagenes/HOME_IMAGES/superman legacy.png">
+                <div class="content">
+                    <h2>Superman: Legacy</h2>
+                    <p>"Un nuevo Hombre de Acero se alza." Clark Kent lucha por equilibrar su herencia kryptoniana con su vida en la Tierra, mientras enfrenta a viejos y nuevos enemigos.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <img class="next-page-cards" src="~/Imagenes/Flecha_derecha.png" />
+    </div>
+
+
+    <div class="guias-recientes">Guias recientes</div>
+    <div class="Seccion_Guias">
+        <img class="prev-page-guias" src="~/Imagenes/Flecha_izquierda.png" />
+        <div class="Guias">
+            <div class="Guia">
+                <img class="guiaN" src="Imagenes/HOME_IMAGES/hollow knight.png">
+                <a class="Card-link" asp-area="" asp-controller="Home" asp-action="Guide"></a>
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/far cry.png">
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/sifu.png">
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/eldenring.png">
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/AC Black Flag.png">
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/SEKIRO+.png">
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/S.T.A.L.K.E.R. 2.png">
+            </div>
+
+            <div class="Guia">
+                <img class="guiaN" src="~/Imagenes/HOME_IMAGES/Cuphead.png    ">
+            </div>
+        </div>
+
+        <img class="next-page-guias" src="~/Imagenes/Flecha_derecha.png" />
+    </div>
+</main>
