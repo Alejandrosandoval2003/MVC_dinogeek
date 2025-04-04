@@ -5,6 +5,8 @@
 }
 
 <link rel="stylesheet" href="~/css/CSS/Style_Guides.css" asp-append-version="true" />
+<script src="~/js/JS/functions.js" asp-append-version="true"></script>
+
 
 <!-- Contenedor principal -->
 <div class="page-container">
@@ -21,111 +23,117 @@
         </div>
 
         <!-- Botones de categorías -->
-        <button> Todo </button>
-        <button>Accion</button>
-        <button>RPG </button>
-        <button>Arcade </button>
-        <button>Indie</button>
-        <button>FPS</button>
-        <button>Saga Souls</button>
-        <button>Pokemon</button>
-        <button>Metroidvania</button>
+<!-- Botones de categorías -->
+<button onclick="filtrarNoticias('Todo')">♾️ Todo</button>
+<button onclick="filtrarNoticias('Accion')">🔥 Acción</button>
+<button onclick="filtrarNoticias('RPG')">🎭 RPG</button>
+<button onclick="filtrarNoticias('Arcade')">🕹️ Arcade</button>
+<button onclick="filtrarNoticias('Indie')">🎨 Indie</button>
+<button onclick="filtrarNoticias('FPS')">🔫 FPS</button>
+<button onclick="filtrarNoticias('Saga Souls')">🌀 Saga Souls</button>
+<button onclick="filtrarNoticias('Pokemon')">⚡ Pokémon</button>
+<button onclick="filtrarNoticias('Metroidvania')">🦇 Metroidvania</button>
 
-    </div>
+</div>
 
-    <main class="main-content">
-        <div class="grid custom-grid">
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/HK.jpeg">
-                <div class="content">
-                    <h2>Guia Hollow Knight</h2>
-                    <p>Asciende como un Dios y conquista Hallownest</p>
-                </div>
-                <a class="Card-link" asp-area="" asp-controller="Home" asp-action="Guide"></a>
+<main class="main-content">
+    <div class="grid custom-grid">
+        <div class="Card" data-category="Metroidvania">
+            <img class="Card-img" src="~/Imagenes_Guias/HK.jpeg">
+            <div class="content">
+                <h2>Guia Hollow Knight</h2>
+                <p>Asciende como un Dios y conquista Hallownest</p>
             </div>
-
-
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/ER.avif">
-                <div class="content">
-                    <h2>Guia Elden Ring</h2>
-                    <p>¡Álzate Sin Luz! Prepárate para enfrentar a un Dios</p>
-                </div>
-            </div>
-
-
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Isaac.jpg">
-                <div class="content">
-                    <h2>Guia The Binding of Isaac</h2>
-                    <p>Prepárate por tu eterna estadía en el mundo de Isaac</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/DS3.webp">
-                <div class="content">
-                    <h2>Guia Dark Souls 3</h2>
-                    <p>Enfrenta a los seres de Ceniza y alzate con la victoria</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/P5R.avif">
-                <div class="content">
-                    <h2>Guia Persona 5 Royal</h2>
-                    <p>¡Ladrones Fantasma, reunios!</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Cuphead.avif">
-                <div class="content">
-                    <h2>Guia Cuphead</h2>
-                    <p>Now you deal with the devil!</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Far Cry 3.jpeg">
-                <div class="content">
-                    <h2>Guia Far Cry 3</h2>
-                    <p>Prepárate para conquistar Rook Island y someter a Vaas y a Hoyt</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Super Hot.avif">
-                <div class="content">
-                    <h2>Guia Super Hot</h2>
-                    <p>Controla tus movimientos, y siempre dispara a la cabeza</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Lies of P.avif">
-                <div class="content">
-                    <h2>Guia Lies of P</h2>
-                    <p>¡Bienvenido a Crat, Marioneta Mentirosa!</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/P3R.webp">
-                <div class="content">
-                    <h2>Guia Persona 3 Reload</h2>
-                    <p>Yo soy tu, tu eres yo, acepta la muerte en tu interior</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Wo.jpg">
-                <div class="content">
-                    <h2>Guia Wo Long</h2>
-                    <p>Asciende entre los dioses en esta dinastía</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img class="Card-img" src="~/Imagenes_Guias/Undertale.avif">
-                <div class="content">
-                    <h2>Guia Undertale</h2>
-                    <p>Después de todo, sigues siendo tu</p>
-                </div>
-            </div>
-
+            <a class="Card-link" asp-area="" asp-controller="Home" asp-action="Guide"></a>
         </div>
-    </main>
-    <button class="next-page">➡</button>
+
+        <div class="Card" data-category="Saga Souls">
+            <img class="Card-img" src="~/Imagenes_Guias/ER.avif">
+            <div class="content">
+                <h2>Guia Elden Ring</h2>
+                <p>¡Álzate Sin Luz! Prepárate para enfrentar a un Dios</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Indie">
+            <img class="Card-img" src="~/Imagenes_Guias/Isaac.jpg">
+            <div class="content">
+                <h2>Guia The Binding of Isaac</h2>
+                <p>Prepárate por tu eterna estadía en el mundo de Isaac</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Saga Souls">
+            <img class="Card-img" src="~/Imagenes_Guias/DS3.webp">
+            <div class="content">
+                <h2>Guia Dark Souls 3</h2>
+                <p>Enfrenta a los seres de Ceniza y alzate con la victoria</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="RPG">
+            <img class="Card-img" src="~/Imagenes_Guias/P5R.avif">
+            <div class="content">
+                <h2>Guia Persona 5 Royal</h2>
+                <p>¡Ladrones Fantasma, reunios!</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Arcade">
+            <img class="Card-img" src="~/Imagenes_Guias/Cuphead.avif">
+            <div class="content">
+                <h2>Guia Cuphead</h2>
+                <p>Now you deal with the devil!</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Accion">
+            <img class="Card-img" src="~/Imagenes_Guias/Far Cry 3.jpeg">
+            <div class="content">
+                <h2>Guia Far Cry 3</h2>
+                <p>Prepárate para conquistar Rook Island y someter a Vaas y a Hoyt</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="FPS">
+            <img class="Card-img" src="~/Imagenes_Guias/Super Hot.avif">
+            <div class="content">
+                <h2>Guia Super Hot</h2>
+                <p>Controla tus movimientos, y siempre dispara a la cabeza</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Saga Souls">
+            <img class="Card-img" src="~/Imagenes_Guias/Lies of P.avif">
+            <div class="content">
+                <h2>Guia Lies of P</h2>
+                <p>¡Bienvenido a Crat, Marioneta Mentirosa!</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="RPG">
+            <img class="Card-img" src="~/Imagenes_Guias/P3R.webp">
+            <div class="content">
+                <h2>Guia Persona 3 Reload</h2>
+                <p>Yo soy tu, tu eres yo, acepta la muerte en tu interior</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Saga Souls">
+            <img class="Card-img" src="~/Imagenes_Guias/Wo.jpg">
+            <div class="content">
+                <h2>Guia Wo Long</h2>
+                <p>Asciende entre los dioses en esta dinastía</p>
+            </div>
+        </div>
+
+        <div class="Card" data-category="Indie">
+            <img class="Card-img" src="~/Imagenes_Guias/Undertale.avif">
+            <div class="content">
+                <h2>Guia Undertale</h2>
+                <p>Después de todo, sigues siendo tú</p>
+            </div>
+        </div>
+    </div>
+</main>
 </div>

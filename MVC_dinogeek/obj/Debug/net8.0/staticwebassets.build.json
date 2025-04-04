@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vyS6RDuQjlEFFlZ2wSKiCrNa53E7a19Yc4FCDswswAw=",
+  "Hash": "UpaPxqdi4tI5FDJ1wndLMbGDOUAaZsnrqxM8/3r2wF8=",
   "Source": "MVC_dinogeek",
   "BasePath": "_content/MVC_dinogeek",
   "Mode": "Default",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dkzu1rleht",
-      "Integrity": "jcyXz6wXc0FX5/Dl/72FZCfF/MOTSWxy4omRfqcI/sU=",
+      "Fingerprint": "mqon3m64io",
+      "Integrity": "AsgSRf/UrzXDZeMGTEpHh5b/yGO2jJWuPn2KhSC3how=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\CSS\\Style_News.css"
@@ -2467,8 +2467,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5kpkg4ui50",
-      "Integrity": "Zb7M53NBkZ1jV148B1FFZMDZMC+R6OMA5PPUFZCDF4g=",
+      "Fingerprint": "a81wbadwku",
+      "Integrity": "OvHy9sZCPIMBfmWfEmusMtjoeNuRH1WE2R1s/+2H/gk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\JS\\functions.js"
@@ -2488,8 +2488,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s6koxd6vfp",
-      "Integrity": "zE4P8YOKlVKEO2+KySXFN6bVNtlDoBGmbMnmWuP+dnU=",
+      "Fingerprint": "up5uaaqc09",
+      "Integrity": "jjW56RQTDGr1GePO6BoGvjgTnMTZJkiVdzu4pTybbj8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\JS\\JS_Home.js"
@@ -4074,7 +4074,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5889"
+          "Value": "5949"
         },
         {
           "Name": "Content-Type",
@@ -4082,11 +4082,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jcyXz6wXc0FX5/Dl/72FZCfF/MOTSWxy4omRfqcI/sU=\""
+          "Value": "\"AsgSRf/UrzXDZeMGTEpHh5b/yGO2jJWuPn2KhSC3how=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:55:49 GMT"
+          "Value": "Fri, 04 Apr 2025 16:23:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4096,12 +4096,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jcyXz6wXc0FX5/Dl/72FZCfF/MOTSWxy4omRfqcI/sU="
+          "Value": "sha256-AsgSRf/UrzXDZeMGTEpHh5b/yGO2jJWuPn2KhSC3how="
         }
       ]
     },
     {
-      "Route": "css/CSS/Style_News.dkzu1rleht.css",
+      "Route": "css/CSS/Style_News.mqon3m64io.css",
       "AssetFile": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\css\\CSS\\Style_News.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4111,7 +4111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5889"
+          "Value": "5949"
         },
         {
           "Name": "Content-Type",
@@ -4119,11 +4119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jcyXz6wXc0FX5/Dl/72FZCfF/MOTSWxy4omRfqcI/sU=\""
+          "Value": "\"AsgSRf/UrzXDZeMGTEpHh5b/yGO2jJWuPn2KhSC3how=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 23:55:49 GMT"
+          "Value": "Fri, 04 Apr 2025 16:23:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4133,7 +4133,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dkzu1rleht"
+          "Value": "mqon3m64io"
         },
         {
           "Name": "label",
@@ -4141,7 +4141,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jcyXz6wXc0FX5/Dl/72FZCfF/MOTSWxy4omRfqcI/sU="
+          "Value": "sha256-AsgSRf/UrzXDZeMGTEpHh5b/yGO2jJWuPn2KhSC3how="
         }
       ]
     },
@@ -4250,7 +4250,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 00:44:25 GMT"
+          "Value": "Fri, 04 Apr 2025 17:22:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4287,7 +4287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 00:44:25 GMT"
+          "Value": "Fri, 04 Apr 2025 17:22:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4332,7 +4332,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 00:11:31 GMT"
+          "Value": "Fri, 04 Apr 2025 17:22:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4369,7 +4369,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 00:11:31 GMT"
+          "Value": "Fri, 04 Apr 2025 17:22:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13084,7 +13084,7 @@
       ]
     },
     {
-      "Route": "js/JS/functions.5kpkg4ui50.js",
+      "Route": "js/JS/functions.a81wbadwku.js",
       "AssetFile": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\js\\JS\\functions.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13094,7 +13094,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2551"
+          "Value": "3194"
         },
         {
           "Name": "Content-Type",
@@ -13102,11 +13102,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zb7M53NBkZ1jV148B1FFZMDZMC+R6OMA5PPUFZCDF4g=\""
+          "Value": "\"OvHy9sZCPIMBfmWfEmusMtjoeNuRH1WE2R1s/+2H/gk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 19:19:52 GMT"
+          "Value": "Fri, 04 Apr 2025 16:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13116,7 +13116,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5kpkg4ui50"
+          "Value": "a81wbadwku"
         },
         {
           "Name": "label",
@@ -13124,7 +13124,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Zb7M53NBkZ1jV148B1FFZMDZMC+R6OMA5PPUFZCDF4g="
+          "Value": "sha256-OvHy9sZCPIMBfmWfEmusMtjoeNuRH1WE2R1s/+2H/gk="
         }
       ]
     },
@@ -13139,7 +13139,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2551"
+          "Value": "3194"
         },
         {
           "Name": "Content-Type",
@@ -13147,11 +13147,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zb7M53NBkZ1jV148B1FFZMDZMC+R6OMA5PPUFZCDF4g=\""
+          "Value": "\"OvHy9sZCPIMBfmWfEmusMtjoeNuRH1WE2R1s/+2H/gk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 19:19:52 GMT"
+          "Value": "Fri, 04 Apr 2025 16:35:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13161,7 +13161,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Zb7M53NBkZ1jV148B1FFZMDZMC+R6OMA5PPUFZCDF4g="
+          "Value": "sha256-OvHy9sZCPIMBfmWfEmusMtjoeNuRH1WE2R1s/+2H/gk="
         }
       ]
     },
@@ -13176,7 +13176,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6151"
+          "Value": "6384"
         },
         {
           "Name": "Content-Type",
@@ -13184,11 +13184,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zE4P8YOKlVKEO2+KySXFN6bVNtlDoBGmbMnmWuP+dnU=\""
+          "Value": "\"jjW56RQTDGr1GePO6BoGvjgTnMTZJkiVdzu4pTybbj8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 22:10:08 GMT"
+          "Value": "Fri, 04 Apr 2025 15:54:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13198,12 +13198,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zE4P8YOKlVKEO2+KySXFN6bVNtlDoBGmbMnmWuP+dnU="
+          "Value": "sha256-jjW56RQTDGr1GePO6BoGvjgTnMTZJkiVdzu4pTybbj8="
         }
       ]
     },
     {
-      "Route": "js/JS/JS_Home.s6koxd6vfp.js",
+      "Route": "js/JS/JS_Home.up5uaaqc09.js",
       "AssetFile": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\js\\JS\\JS_Home.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13213,7 +13213,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6151"
+          "Value": "6384"
         },
         {
           "Name": "Content-Type",
@@ -13221,11 +13221,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zE4P8YOKlVKEO2+KySXFN6bVNtlDoBGmbMnmWuP+dnU=\""
+          "Value": "\"jjW56RQTDGr1GePO6BoGvjgTnMTZJkiVdzu4pTybbj8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 22:10:08 GMT"
+          "Value": "Fri, 04 Apr 2025 15:54:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13235,7 +13235,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s6koxd6vfp"
+          "Value": "up5uaaqc09"
         },
         {
           "Name": "label",
@@ -13243,7 +13243,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zE4P8YOKlVKEO2+KySXFN6bVNtlDoBGmbMnmWuP+dnU="
+          "Value": "sha256-jjW56RQTDGr1GePO6BoGvjgTnMTZJkiVdzu4pTybbj8="
         }
       ]
     },

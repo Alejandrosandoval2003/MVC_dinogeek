@@ -61,9 +61,11 @@ body {
 
 .grid.custom-grid {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas */
-    justify-content: space-evenly; /* Distribuye las tarjetas uniformemente */
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Evita que las tarjetas se separen */
+    align-items: flex-start; /* Asegura que inicien desde arriba */
+    gap: 15px; /* Mantiene la separación correcta */
+    padding: 0;
     width: 100%;
 }
 

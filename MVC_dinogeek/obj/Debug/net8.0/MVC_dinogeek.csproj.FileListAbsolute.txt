@@ -98,3 +98,4 @@ D:\MVC_dinogeek\MVC_dinogeek\MVC_dinogeek\obj\Debug\net8.0\refint\MVC_dinogeek.d
 D:\MVC_dinogeek\MVC_dinogeek\MVC_dinogeek\obj\Debug\net8.0\MVC_dinogeek.pdb
 D:\MVC_dinogeek\MVC_dinogeek\MVC_dinogeek\obj\Debug\net8.0\MVC_dinogeek.genruntimeconfig.cache
 D:\MVC_dinogeek\MVC_dinogeek\MVC_dinogeek\obj\Debug\net8.0\ref\MVC_dinogeek.dll
+C:\Users\tato1\Downloads\MVC_dinogeek\MVC_dinogeek\MVC_dinogeek\obj\Debug\net8.0\MVC_dinogeek.sourcelink.json

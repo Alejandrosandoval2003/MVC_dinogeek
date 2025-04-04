@@ -30,14 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     
         function moveLeft() {
-            cards.push(cards.shift());
-            cardsContainer.appendChild(cards[cards.length - 1]);
+            cards.unshift(cards.pop()); // En lugar de mover la primera al final, movemos la última al principio
+            cardsContainer.insertBefore(cards[0], cardsContainer.firstChild);
             updateVisibility();
         }
-    
+        
         function moveRight() {
-            cards.unshift(cards.pop());
-            cardsContainer.insertBefore(cards[0], cardsContainer.firstChild);
+            cards.push(cards.shift()); // En lugar de mover la última al principio, movemos la primera al final
+            cardsContainer.appendChild(cards[cards.length - 1]);
             updateVisibility();
         }
     
@@ -153,16 +153,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function moveGuiaLeft() {
-        guias.push(guias.shift());
-        guiaContainer.appendChild(guias[guias.length - 1]);
-        updateGuiaVisibility();
-    }
-
-    function moveGuiaRight() {
-        guias.unshift(guias.pop());
+        guias.unshift(guias.pop()); // Mueve la última guía al inicio
         guiaContainer.insertBefore(guias[0], guiaContainer.firstChild);
         updateGuiaVisibility();
     }
+    
+    function moveGuiaRight() {
+        guias.push(guias.shift()); // Mueve la primera guía al final
+        guiaContainer.appendChild(guias[guias.length - 1]);
+        updateGuiaVisibility();
+    }
+    
 
     prevGuiaButton.addEventListener("click", moveGuiaLeft);
     nextGuiaButton.addEventListener("click", moveGuiaRight);

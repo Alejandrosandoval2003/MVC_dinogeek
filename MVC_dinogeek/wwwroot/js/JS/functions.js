@@ -86,3 +86,26 @@ function validateUser(){
 function goTo(page) {
     window.location.href = page;
 }
+
+// FILTRADO EN SECCION DE NOTICIAS
+
+function filtrarNoticias(categoria) {
+    console.log(`🟢 Filtrando por: ${categoria}`);
+    
+    const cards = document.querySelectorAll(".Card");
+    const mainContent = document.querySelector(".main-content");
+
+    let visibleCards = 0;
+
+    cards.forEach(card => {
+        const cardCategory = card.getAttribute("data-category");
+        
+        if (categoria === "Todo" || cardCategory === categoria) {
+            card.style.display = "flex"; // Mostrar
+            visibleCards++;
+        } else {
+            card.style.display = "none"; // Ocultar
+        }
+    });
+}
+
