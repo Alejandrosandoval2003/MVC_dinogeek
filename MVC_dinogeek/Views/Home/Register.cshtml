@@ -6,20 +6,25 @@
 <link rel="stylesheet" href="~/css/CSS/Style_loginl.css" asp-append-version="true" />
 <script src="~/js/JS/functions.js" asp-append-version="true"></script>
 <main>
-    <div class="container">
+    <div class="login-wrapper">
+        <!-- Viewer Spline -->
+        <div class="SplineLogIn">
+            <script type="module" src="https://unpkg.com/@@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/gPaovGwTLE79-aYe/scene.splinecode"></spline-viewer>        </div>
 
-
-        <!-- Caja de Login -->
-        <div class="login-box">
-            <button class="BackBtt" onclick="goTo('@Url.Action("Login", "Home")')">↩</button>
-            <h1 class="log-in">REGISTRER</h1>
-            <div class="input-box">
-                <input type="text" placeholder="Username" class="newName">
+        <!-- Caja de Registro -->
+        <div class="container">
+            <div class="login-box">
+                <button class="BackBtt" onclick="goTo('@Url.Action("Login", "Home")')">↩</button>
+                <h1 class="log-in">REGISTRER</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" class="newName">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" class="newPass">
+                </div>
+                <button class="accept-login" onclick="createNewUser()">Accept</button>
             </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" class="newPass">
-            </div>
-            <button class="accept-login" onclick="createNewUser()">Accept</button>
         </div>
     </div>
 </main>

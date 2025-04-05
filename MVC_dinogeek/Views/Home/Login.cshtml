@@ -6,11 +6,18 @@
 <link rel="stylesheet" href="~/css/CSS/Style_loginl.css" asp-append-version="true" />
 <script src="~/js/JS/functions.js" asp-append-version="true"></script>
 
+
 <main>
+
+<div class="login-wrapper">
+    <!-- Contenedor del viewer -->
+    <div class="SplineLogIn">
+        <script type="module" src="https://unpkg.com/@@splinetool/viewer@1.9.82/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/gPaovGwTLE79-aYe/scene.splinecode"></spline-viewer>
+    </div>
+
+    <!-- Caja de Login -->
     <div class="container">
-
-
-        <!-- Caja de Login -->
         <div class="login-box">
             <button class="BackBtt" onclick="goTo('@Url.Action("Index", "Home")')">↩</button>
             <h1 class="log-in">LOG-IN</h1>
@@ -23,5 +30,7 @@
             <button class="accept-login" onclick="validateUser()">Accept</button>
             <button class="Register" onclick="goTo('@Url.Action("Register", "Home")')">Registrarse</button>
         </div>
+    </div>
+</div>
     </div>
 </main>
