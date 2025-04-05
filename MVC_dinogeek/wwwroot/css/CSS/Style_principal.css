@@ -84,7 +84,7 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color: white;
-	font-size: 4vw;
+	font-size: 6vw;
 }
 nav ul li a:hover{
 	color: #ff5ea2
@@ -391,6 +391,7 @@ main{
 
     .menu_mobile{
         display: flex;
+        
     }
 
     .logo h1 {
@@ -549,6 +550,8 @@ main{
 .banner-text p {
     font-size: 1rem !important; /* Reducido en móviles */
 }
+
+
 
 }
 

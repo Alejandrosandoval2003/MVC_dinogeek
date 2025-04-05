@@ -1,9 +1,6 @@
 var userName = "Temporal";
 var userPass = "123456789";
 
-(function(){
-    emailjs.init("uuNIovmC9fSJuKLom");
-})();
 
 function autoResize(textarea) {
     textarea.style.height = "auto"; 
@@ -46,19 +43,30 @@ function sendSuscription() {
 
 function createNewUser(){
 
+    //OBTENEMOS STRINGS DE LOS INPUTS
+
     NewName = document.getElementsByClassName('newName')[0].value;
     NewPass = document.getElementsByClassName('newPass')[0].value;
 
+
+    //VALIDAMOS QUE NO ESTEN VACIOS
     if(NewName == "" || NewPass == ""){
         alert("No se puede crear un usuario con campos vacíos");
         return;
     }else{
+
+        //MODIFICAMOS VARIABLE GLOBAL
         window.userName = NewName; // Modificando la variable global
         window.userPass = NewPass; // Modificando la variable global
         console.log("Después de la actualización:", userName, userPass);
 
+        //GUARDAMOS EN EL LOCAL STORAGE PARA QUE LA VARIABLE PERSISTA AUN DESPUES DE CERRAR
+
         localStorage.setItem("userName", NewName);
         localStorage.setItem("userPass", NewPass);
+
+        //VAMOS PA CASITA
+
         window.location.href = "/Home/Login";
     
     }
@@ -66,20 +74,24 @@ function createNewUser(){
 
 function validateUser(){
 
+    //OBTENEMOS VALORES DEL LOCAL STORAGE
+
     var userName = localStorage.getItem("userName");
     var userPass = localStorage.getItem("userPass");
+
+    //OBTENEMOS VALORES DEL INPUT
 
     let name = document.getElementsByClassName('userName')[0].value;
     let pass = document.getElementsByClassName('userPass')[0].value;
     if(name == userName && pass == userPass){
+        //SI SI VAMO A CASITA
         window.location.href = "/Home/Index";
 
     }else{
+
+        //SI NO PAILAS, USUARIO INCORRECTO
+
         alert("Usuario o Contraseña incorrectos");
-        console.log(userName);
-        console.log(userPass);
-        console.log(name)
-        console.log(pass)
     }
 }
 
@@ -87,7 +99,7 @@ function goTo(page) {
     window.location.href = page;
 }
 
-// FILTRADO EN SECCION DE NOTICIAS
+// FILTRADO EN SECCION DE NOTICIAS & GUIAS
 
 function filtrarNoticias(categoria) {
     console.log(`🟢 Filtrando por: ${categoria}`);

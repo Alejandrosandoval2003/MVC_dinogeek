@@ -4,6 +4,10 @@
 @{
 }
 <link rel="stylesheet" href="~/css/CSS/Style_About_Us.css" asp-append-version="true" />
+<script src="~/js/JS/functions.js" asp-append-version="true"></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+
+
 
 <!-- Introduccion sobre nosotros -->
 <main>
@@ -88,4 +92,10 @@
             </div>
         </div>
     </div>
+
+    <script>
+        (function(){
+            emailjs.init("uuNIovmC9fSJuKLom");
+        })();
+    </script>
 </main>
