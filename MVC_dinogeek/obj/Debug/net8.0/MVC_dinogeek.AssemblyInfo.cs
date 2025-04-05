@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC_dinogeek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+434534cb8d16c8a9cae911d01f968f067177f64c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69c85ec5d0b8b9644f185ce0b16e6157f0e7b77f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC_dinogeek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC_dinogeek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1458,23 +1458,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_About_us\willy.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Cuphead.avif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Cuphead.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC_dinogeek</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVC_dinogeek</BasePath>
-      <RelativePath>Imagenes_Guias/Cuphead.avif</RelativePath>
+      <RelativePath>Imagenes_Guias/Cuphead.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wqzckous5n</Fingerprint>
-      <Integrity>+BM9x3c5X4ldQFODXfYv7VJ6oKflEu3hdenzXT/FtBo=</Integrity>
+      <Fingerprint>yu01r1vapt</Fingerprint>
+      <Integrity>msmdmIcRjvVYp3/3rk6UwMYd5pl0jmhVZCFuWgCE7mk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Cuphead.avif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Cuphead.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\DS3.webp'))">
       <SourceType>Package</SourceType>
@@ -1494,23 +1494,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\DS3.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\ER.avif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\ER.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC_dinogeek</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVC_dinogeek</BasePath>
-      <RelativePath>Imagenes_Guias/ER.avif</RelativePath>
+      <RelativePath>Imagenes_Guias/ER.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lsbaq3a8f5</Fingerprint>
-      <Integrity>y7/CPWMmViLNZ/af7NmWGJummRy9UqXewmnsPXAPC/w=</Integrity>
+      <Fingerprint>5pkbtjpd77</Fingerprint>
+      <Integrity>d4kBaVtB9R76cve8yipDX6xFedyuEMkNcGe5sCli1Lc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\ER.avif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\ER.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Far Cry 3.jpeg'))">
       <SourceType>Package</SourceType>
@@ -1584,6 +1584,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Lies of P.avif'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Lies-of-P.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_dinogeek</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_dinogeek</BasePath>
+      <RelativePath>Imagenes_Guias/Lies-of-P.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7okoa48y5s</Fingerprint>
+      <Integrity>WadBNynAb5iUOEC/uCN1t9j3K1F7ZHh0/kz9LubR0a4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Lies-of-P.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\P3R.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC_dinogeek</SourceId>
@@ -1620,23 +1638,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\P5R.avif'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Super Hot.avif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\P5R.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>MVC_dinogeek</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVC_dinogeek</BasePath>
-      <RelativePath>Imagenes_Guias/Super Hot.avif</RelativePath>
+      <RelativePath>Imagenes_Guias/P5R.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ocke1pk1aq</Fingerprint>
-      <Integrity>iINbBc/EyZJmKMgKNhUIDUPGlCudBnglMZOx4GhRmXk=</Integrity>
+      <Fingerprint>m14dkqoudz</Fingerprint>
+      <Integrity>upEsg+DjrroHq3XelEx1HRJp0jXFASNmliPefJKHMyg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Super Hot.avif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\P5R.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Super-Hot.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_dinogeek</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_dinogeek</BasePath>
+      <RelativePath>Imagenes_Guias/Super-Hot.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gijf4j8whg</Fingerprint>
+      <Integrity>eL8yo8bxucjO7VCkIck5QNiVEf23ph9ubLQ8ZPwrZPY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Super-Hot.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Undertale.avif'))">
       <SourceType>Package</SourceType>
@@ -1655,6 +1691,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Undertale.avif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Undertale_1.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_dinogeek</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_dinogeek</BasePath>
+      <RelativePath>Imagenes_Guias/Undertale_1.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9lqy37pvj3</Fingerprint>
+      <Integrity>45W++LDIMGXbLrI8F5XA791KP4/lqtUelsU6BOuAfG8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Undertale_1.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes_Guias\Wo.jpg'))">
       <SourceType>Package</SourceType>
@@ -2064,8 +2118,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>idmo85s76q</Fingerprint>
-      <Integrity>RkMbLo/yX3oKYNUaa0gioEOzv4N5NI+f/0UOlxstYg8=</Integrity>
+      <Fingerprint>ilguehh81m</Fingerprint>
+      <Integrity>eo4j7e/hYkij0cvqNyALRe51GIv99VSJ5LhtNLUv5Lk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\JS\functions.js'))</OriginalItemSpec>

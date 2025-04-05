@@ -289,16 +289,16 @@
       "PackagePath": "staticwebassets\\Imagenes_About_us\\willy.jpg"
     },
     {
-      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Cuphead.avif",
-      "PackagePath": "staticwebassets\\Imagenes_Guias\\Cuphead.avif"
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Cuphead.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Cuphead.jpeg"
     },
     {
       "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\DS3.webp",
       "PackagePath": "staticwebassets\\Imagenes_Guias\\DS3.webp"
     },
     {
-      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\ER.avif",
-      "PackagePath": "staticwebassets\\Imagenes_Guias\\ER.avif"
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\ER.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\ER.jpeg"
     },
     {
       "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Far Cry 3.jpeg",
@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\Imagenes_Guias\\Lies of P.avif"
     },
     {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Lies-of-P.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Lies-of-P.jpeg"
+    },
+    {
       "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\P3R.webp",
       "PackagePath": "staticwebassets\\Imagenes_Guias\\P3R.webp"
     },
@@ -325,12 +329,20 @@
       "PackagePath": "staticwebassets\\Imagenes_Guias\\P5R.avif"
     },
     {
-      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Super Hot.avif",
-      "PackagePath": "staticwebassets\\Imagenes_Guias\\Super Hot.avif"
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\P5R.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\P5R.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Super-Hot.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Super-Hot.jpeg"
     },
     {
       "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Undertale.avif",
       "PackagePath": "staticwebassets\\Imagenes_Guias\\Undertale.avif"
+    },
+    {
+      "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Undertale_1.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes_Guias\\Undertale_1.jpeg"
     },
     {
       "Id": "C:\\Users\\tato1\\Downloads\\MVC_dinogeek\\MVC_dinogeek\\MVC_dinogeek\\wwwroot\\Imagenes_Guias\\Wo.jpg",
